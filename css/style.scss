@@ -2810,3 +2810,452 @@ footer{
 		}
 	}
 }
+
+/*LIFEHACK*/
+.life_title{
+	border-bottom: 3px solid $green;
+	position: relative;
+	@include mq{
+		border-bottom: 1px solid $green;
+	}
+	&::before{
+		content: "";
+		background: $green;
+		height: 3px;
+		width: 40%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		@include mq{
+			height: 1px;
+		}
+	}
+	&::after{
+		content: "";
+		background: $green;
+		height: 1px;
+		width: 40%;
+		position: absolute;
+		top: 6px;
+		left: 0;
+		@include mq{
+			background: #B7DC95;
+			top: 4px;
+		}
+	}
+	div{
+		&::before{
+			content: "";
+			background: $green;
+			height: 3px;
+			width: 40%;
+			position: absolute;
+			top: 0;
+			right: 0;
+			@include mq{
+				height: 1px;
+			}
+		}
+		&::after{
+			content: "";
+			background: $green;
+			height: 1px;
+			width: 40%;
+			position: absolute;
+			top: 6px;
+			right: 0;
+			@include mq{
+				background: #B7DC95;
+				top: 4px;
+			}
+		}
+	}
+	h2{
+		font-size: 3.6rem;
+		text-align: center;
+		padding: 25px 0;
+		line-height: 1.25;
+		letter-spacing: -0.3rem;
+		width: 100%;
+		position: relative;
+		font-weight: 600;
+		span{
+			color: #1E9100;
+		}
+		&::before{
+			content: url("../img/lifehack/ico_mt.svg");
+			width: 15%;
+			position: absolute;
+			top: 15px;
+			left: 50%;
+			transform: translate(-50%,-100%);
+			@include mq{
+				top: 8px;
+			}
+		}
+		&::after{
+			content: "";
+			background: $green;
+			height: 1px;
+			width: 100%;
+			position: absolute;
+			bottom: 3px;
+			left: 0;
+			@include mq{
+				background: #B7DC95;
+			}
+		}
+		@include mq{
+			font-size: 1.6rem;
+			padding: 20px 0;
+			letter-spacing: -0.15rem;
+		}
+		@media screen and (max-width:320px){
+			letter-spacing: 0;
+		}
+	}
+}
+
+.life{
+	#ytPlayerWrap{
+		position: relative;
+		height: 500px;
+		width: 100%;
+		@include mq{
+			height: 200px;
+		}
+		.multipul{
+			background: #C1C1C1;
+			mix-blend-mode: multiply;
+			height: 500px;
+			width: 100%;
+			@include mq{
+				height: 200px;
+			}
+		}
+		.main_txt{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			color: #fff;
+			text-align: center;
+			width: 100%;
+			text-shadow: 0 0 12px rgba(35,24,21,0.5);
+			dl{
+				dt{
+					font-size: 5rem;
+					line-height: 1;
+					font-family: $goth;
+					font-weight: 700;
+					margin-bottom: 60px;
+					@include mq{
+						font-size: 2rem;
+						margin-bottom: 20px;
+					}
+				}
+				dd{
+					font-size: 9.8rem;
+					line-height: 1;
+					margin-bottom: 55px;
+					font-weight: 600;
+					@include mq{
+						font-size: 4rem;
+						margin-bottom: 25px;
+					}
+				}
+			}
+			p{
+				font-size: 3.2rem;
+				line-height: 1;
+				font-weight: 400;
+				@include mq{
+					font-size: 1.3rem;
+				}
+			}
+			.loading{
+				margin-top: 20px;
+			}
+		}
+	}
+	#movie{
+		padding: 70px 0 100px;
+		background: linear-gradient(0deg, rgba(205,228,178,1) 0%, rgba(247,248,166,1) 100%);
+		@include mq{
+			padding: 35px 0;
+		}
+		.content{
+			width: 91.3%;
+			max-width: 1000px;
+			margin: 0 auto;
+			.life_title{
+				margin-bottom: 20px;
+				@include mq{
+					margin-bottom: 20px;
+				}
+			}
+			.iframe{
+				position: relative;
+				width: 100%;
+				height: 0;
+				padding-bottom: 56.25%;
+				overflow: hidden;
+				iframe {
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+			}
+		}
+	}
+	#mybottle{
+		padding: 70px 0 80px;
+		@include mq{
+			padding: 30px 0 35px;
+		}
+		.content{
+			width: 92%;
+			max-width: 1000px;
+			margin: 0 auto;
+			.life_title{
+				margin-bottom: 50px;
+				@include mq{
+					margin-bottom: 30px;
+				}
+			}
+			.mybottle_intro{
+				width: 91.3%;
+				margin: 0 auto 70px;
+				@include mq{
+					margin: 0 auto;
+				}
+				p{
+					font-size: 2.1rem;
+					text-align: center;
+					line-height: 2.5;
+					font-weight: 400;
+					@include mq{
+						margin-bottom: 30px;
+						font-size: 1.6rem;
+						line-height: 2;
+						font-family: $goth;
+						text-align: left;
+					}
+				}
+			}
+			.mybottle_detail{
+				width: 91.3%;
+				margin: 0 auto;
+				max-width: 770px;
+				background: #EBEFD0;
+				padding: 6px;
+				.mybottle_line{
+					border-left: 1px solid #fff;
+					border-right: 1px solid #fff;
+					margin: 6px 0;
+					padding: 15px 25px;
+					position: relative;
+					&::before{
+						width: calc(100% - 12px);
+						content: "";
+						height: 1px;
+						background: #fff;
+						position: absolute;
+						top: -6px;
+						left: 6px;
+					}
+					&::after{
+						width: calc(100% - 12px);
+						content: "";
+						height: 1px;
+						background: #fff;
+						position: absolute;
+						bottom: -6px;
+						right: 6px;
+					}
+					dl{
+						margin-bottom: 10px;
+						position: relative;
+						z-index: 2;
+						@include mq{
+							font-family: $goth;
+							font-size: 1.4rem;
+						}
+						&::after{
+							content: "";
+							background: url("../img/lifehack/img_pkg.png");
+							position: absolute;
+							background-size: cover;
+							right: -10px;
+							top: -60px;
+							width: 225px;
+							height: 242px;
+							z-index: -1;
+							@include mq{
+								width: 98px;
+								height: 108px;
+								top: -50px;
+								right: -50px;
+							}
+						}
+						dt{
+							font-size: 2.1rem;
+							line-height: 1.5;
+							margin-bottom: 15px;
+							font-weight: 400;
+							@include mq{
+								font-size: 1.4rem;
+								margin-bottom: 5px;
+							}
+						}
+						dd{
+							font-family: $goth;
+							margin-bottom: 5px;
+							font-weight: 400;
+							position: relative;
+							padding-left: 20px;
+							&::before{
+								color: $green;
+								position: absolute;
+								content: "●";
+								top: 0;
+								left: 0;
+							}
+							b{
+								font-weight: 700;
+							}
+							@include mq{
+								margin-bottom: 2px;
+							}
+						}
+					}
+					p{
+						font-weight: 400;
+						font-family: $goth;
+						a{
+							font-weight: 700;
+							border-bottom: 1px solid $green;
+							margin-bottom: 2px;
+						}
+					}
+				}
+			}
+		}
+	}
+	#freeze{
+		padding: 70px 0 80px;
+		background: linear-gradient(0deg, rgba(205,228,178,1) 0%, rgba(247,248,166,1) 100%);
+		@include mq{
+			padding: 30px 0 35px;
+		}
+		.content{
+			width: 92%;
+			max-width: 1000px;
+			margin: 0 auto;
+			.life_title{
+				margin-bottom: 50px;
+				@include mq{
+					margin-bottom: 30px;
+				}
+			}
+			.freeze_intro{
+				width: 91.3%;
+				margin: 0 auto 70px;
+				@include mq{
+					margin: 0 auto 35px;
+				}
+				p{
+					font-size: 2.1rem;
+					text-align: center;
+					line-height: 2.5;
+					font-weight: 400;
+					@include mq{
+						font-size: 1.6rem;
+						line-height: 2;
+						font-family: $goth;
+						text-align: left;
+						&:first-child{
+							margin-bottom: 30px;
+						}
+					}
+				}
+				aside{
+					margin-top: 25px;
+					font-family: $goth;
+					text-align: center;
+					font-weight: 400;
+					@include mq{
+						margin-top: 15px;
+					}
+				}
+			}
+			.freeze_detail{
+				width: 91.3%;
+				margin: 0 auto;
+				max-width: 770px;
+				background: #EBEFD0;
+				padding: 0 0 0 6px;
+				display: flex;
+				@media screen and (max-width: 900px){
+					align-items: center;
+					background: #fff;
+				}
+				@include mq{
+					display: block;
+					padding: 0;
+				}
+				.freeze_line{
+					padding: 6px 0;
+					@include mq{
+						padding: 15px 20px;
+					}
+				}
+				.freeze_inner{
+					border-left: 1px solid $green;
+					margin: 6px 0;
+					padding: 35px;
+					position: relative;
+					height: calc(100% - 12px);
+					font-family: $goth;
+					font-weight: 400;
+					@include mq{
+						padding: 0;
+						border: none;
+						height: auto;
+					}
+					&::before{
+						width: calc(100% - 6px);
+						content: "";
+						height: 1px;
+						background: $green;
+						position: absolute;
+						top: -6px;
+						left: 6px;
+						@include mq{
+							content: none;
+						}
+					}
+					&::after{
+						width: calc(100% - 6px);
+						content: "";
+						height: 1px;
+						background: $green;
+						position: absolute;
+						bottom: -6px;
+						right: 0;
+						@include mq{
+							content: none;
+						}
+					}
+				}
+				figure{
+					width: 48%;
+					@include mq{
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
