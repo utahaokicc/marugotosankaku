@@ -2457,7 +2457,7 @@ footer {
           background: #B7DC95; } }
     @media screen and (max-width: 767px) {
       .life_title h2 {
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         padding: 20px 0;
         letter-spacing: -0.15rem; } }
     @media screen and (max-width: 320px) {
@@ -2701,7 +2701,7 @@ footer {
         @media screen and (max-width: 767px) {
           .life #freeze .content .freeze_intro aside {
             margin-top: 15px; } }
-    .life #freeze .content .freeze_detail {
+    .life #freeze .content .freeze_detail a {
       width: 91.3%;
       margin: 0 auto;
       max-width: 770px;
@@ -2709,19 +2709,19 @@ footer {
       padding: 0 0 0 6px;
       display: flex; }
       @media screen and (max-width: 900px) {
-        .life #freeze .content .freeze_detail {
+        .life #freeze .content .freeze_detail a {
           align-items: center;
           background: #fff; } }
       @media screen and (max-width: 767px) {
-        .life #freeze .content .freeze_detail {
+        .life #freeze .content .freeze_detail a {
           display: block;
           padding: 0; } }
-      .life #freeze .content .freeze_detail .freeze_line {
+      .life #freeze .content .freeze_detail a .freeze_line {
         padding: 6px 0; }
         @media screen and (max-width: 767px) {
-          .life #freeze .content .freeze_detail .freeze_line {
+          .life #freeze .content .freeze_detail a .freeze_line {
             padding: 15px 20px; } }
-      .life #freeze .content .freeze_detail .freeze_inner {
+      .life #freeze .content .freeze_detail a .freeze_inner {
         border-left: 1px solid #6FBA2C;
         margin: 6px 0;
         padding: 35px;
@@ -2730,11 +2730,11 @@ footer {
         font-family: "Noto Sans JP", "Hiragino Sans", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "Noto Sans", sans-serif;
         font-weight: 400; }
         @media screen and (max-width: 767px) {
-          .life #freeze .content .freeze_detail .freeze_inner {
+          .life #freeze .content .freeze_detail a .freeze_inner {
             padding: 0;
             border: none;
             height: auto; } }
-        .life #freeze .content .freeze_detail .freeze_inner::before {
+        .life #freeze .content .freeze_detail a .freeze_inner::before {
           width: calc(100% - 6px);
           content: "";
           height: 1px;
@@ -2743,9 +2743,9 @@ footer {
           top: -6px;
           left: 6px; }
           @media screen and (max-width: 767px) {
-            .life #freeze .content .freeze_detail .freeze_inner::before {
+            .life #freeze .content .freeze_detail a .freeze_inner::before {
               content: none; } }
-        .life #freeze .content .freeze_detail .freeze_inner::after {
+        .life #freeze .content .freeze_detail a .freeze_inner::after {
           width: calc(100% - 6px);
           content: "";
           height: 1px;
@@ -2754,12 +2754,12 @@ footer {
           bottom: -6px;
           right: 0; }
           @media screen and (max-width: 767px) {
-            .life #freeze .content .freeze_detail .freeze_inner::after {
+            .life #freeze .content .freeze_detail a .freeze_inner::after {
               content: none; } }
-      .life #freeze .content .freeze_detail figure {
+      .life #freeze .content .freeze_detail a figure {
         width: 48%; }
         @media screen and (max-width: 767px) {
-          .life #freeze .content .freeze_detail figure {
+          .life #freeze .content .freeze_detail a figure {
             width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
