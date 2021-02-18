@@ -3434,7 +3434,7 @@ footer{
 					padding-left: 3rem;
 					position: relative;
 					@include mq{
-						margin-bottom: 25px;
+						margin-bottom: 15px;
 						font-size: 1.8rem;
 						padding-left: 1.8rem;
 					}
@@ -3559,15 +3559,22 @@ footer{
 						line-height: 1.5;
 						font-size: 2rem;
 						font-weight: 400;
+						text-indent: -4rem;
+						padding-left: 4rem;
 						@include mq{
 							font-size: 1.6rem;
+							text-align: -3.2rem;
+							padding-left: 3.2rem;
 						}
 						&:last-child{
 							margin-bottom: 0;
 						}
 						span{
 							color: $dgreen;
-							margin-right: 20px;
+							margin-right: 1.8rem;
+							@include  mq{
+								margin-right: 2.1rem;
+							}
 						}
 					}
 				}
