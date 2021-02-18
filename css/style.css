@@ -2762,4 +2762,288 @@ footer {
           .life #freeze .content .freeze_detail a figure {
             width: 100%; } }
 
+.column #columm_wrap {
+  background: #ECF0D1;
+  padding-bottom: 90px; }
+  @media screen and (max-width: 767px) {
+    .column #columm_wrap {
+      padding-bottom: 0; } }
+  .column #columm_wrap #column_top {
+    text-align: center;
+    background: #fff;
+    width: 85.6%;
+    margin: -100px auto 0;
+    padding-top: 100px;
+    max-width: 850px; }
+    .column #columm_wrap #column_top .logo {
+      position: relative;
+      width: 660px;
+      margin: 25px auto 15px; }
+      @media screen and (max-width: 767px) {
+        .column #columm_wrap #column_top .logo {
+          margin: 15px auto 8px;
+          width: 245px; } }
+      .column #columm_wrap #column_top .logo::before {
+        content: url("../img/column/cl_ico_watashito.svg");
+        position: absolute;
+        width: 153px;
+        top: -175px;
+        left: -60px; }
+        @media screen and (max-width: 767px) {
+          .column #columm_wrap #column_top .logo::before {
+            width: 56px;
+            top: -70px;
+            left: -25px; } }
+    .column #columm_wrap #column_top p {
+      color: #1E9200;
+      letter-spacing: 0.2rem; }
+      @media screen and (max-width: 767px) {
+        .column #columm_wrap #column_top p {
+          font-size: 1rem; } }
+  .column #columm_wrap #column_inner {
+    background: #fff;
+    width: 85.6%;
+    margin: 0 auto;
+    max-width: 850px; }
+    .column #columm_wrap #column_inner #pager {
+      padding: 55px 0; }
+      @media screen and (max-width: 767px) {
+        .column #columm_wrap #column_inner #pager {
+          padding: 30px 0; } }
+      .column #columm_wrap #column_inner #pager ul {
+        display: flex;
+        justify-content: center; }
+        .column #columm_wrap #column_inner #pager ul li {
+          margin: 0 15px;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          line-height: 30px;
+          background: #fff;
+          color: #8F8F8F;
+          text-align: center; }
+          @media screen and (max-width: 767px) {
+            .column #columm_wrap #column_inner #pager ul li {
+              width: 22px;
+              height: 22px;
+              line-height: 22px;
+              font-size: 1.2rem;
+              margin: 0 5px; } }
+          .column #columm_wrap #column_inner #pager ul li.disp {
+            color: #fff;
+            background: #6FBA2C; }
+    .column #columm_wrap #column_inner .colum_numtit {
+      text-align: center;
+      width: 82%;
+      margin: 0 auto 35px;
+      max-width: 700px; }
+      @media screen and (max-width: 767px) {
+        .column #columm_wrap #column_inner .colum_numtit {
+          margin-bottom: 15px; } }
+      .column #columm_wrap #column_inner .colum_numtit dt {
+        font-size: 7.8rem;
+        font-weight: 400;
+        line-height: 1;
+        margin-bottom: 25px;
+        color: #1E9200; }
+        @media screen and (max-width: 767px) {
+          .column #columm_wrap #column_inner .colum_numtit dt {
+            font-size: 3rem; } }
+      .column #columm_wrap #column_inner .colum_numtit dd {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1;
+        font-family: "Noto Sans JP", "Hiragino Sans", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "Noto Sans", sans-serif; }
+        @media screen and (max-width: 767px) {
+          .column #columm_wrap #column_inner .colum_numtit dd {
+            font-size: 1.2rem; } }
+        .column #columm_wrap #column_inner .colum_numtit dd h1 {
+          font-family: "Noto Serif JP", "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+          font-size: 4.5rem;
+          padding-bottom: 15px;
+          margin-bottom: 30px;
+          position: relative;
+          line-height: 1.25; }
+          @media screen and (max-width: 767px) {
+            .column #columm_wrap #column_inner .colum_numtit dd h1 {
+              font-size: 2.1rem; } }
+          .column #columm_wrap #column_inner .colum_numtit dd h1::before {
+            content: "";
+            position: absolute;
+            height: 1px;
+            width: 100%;
+            left: 0;
+            bottom: 0px;
+            background: #6FBA2C; }
+          .column #columm_wrap #column_inner .colum_numtit dd h1::after {
+            content: "";
+            position: absolute;
+            height: 1px;
+            width: 100%;
+            left: 0;
+            bottom: 3px;
+            background: #6FBA2C; }
+    .column #columm_wrap #column_inner #colum_detail {
+      width: 82%;
+      max-width: 650px;
+      margin: 0 auto; }
+      .column #columm_wrap #column_inner #colum_detail figure {
+        margin-bottom: 70px; }
+        @media screen and (max-width: 767px) {
+          .column #columm_wrap #column_inner #colum_detail figure {
+            margin-bottom: 40px; } }
+        .column #columm_wrap #column_inner #colum_detail figure.colum_img_top {
+          box-shadow: 5px 5px 0 #ECF0D1;
+          mamrgin-bottom: 80px; }
+          @media screen and (max-width: 767px) {
+            .column #columm_wrap #column_inner #colum_detail figure.colum_img_top {
+              margin-bottom: 40px; } }
+        .column #columm_wrap #column_inner #colum_detail figure figcaption {
+          font-family: "Noto Sans JP", "Hiragino Sans", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "Noto Sans", sans-serif;
+          font-size: 1.3rem;
+          margin-top: 2px;
+          font-weight: 300; }
+          @media screen and (max-width: 767px) {
+            .column #columm_wrap #column_inner #colum_detail figure figcaption {
+              font-size: 1rem; } }
+      .column #columm_wrap #column_inner #colum_detail h2 {
+        font-size: 3rem;
+        margin-bottom: 35px;
+        line-height: 1.5;
+        color: #1E9200;
+        padding-left: 3rem;
+        position: relative; }
+        @media screen and (max-width: 767px) {
+          .column #columm_wrap #column_inner #colum_detail h2 {
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+            padding-left: 1.8rem; } }
+        .column #columm_wrap #column_inner #colum_detail h2::before {
+          position: absolute;
+          height: 100%;
+          width: 4px;
+          background: #6FBA2C;
+          top: 0;
+          left: 0;
+          content: ""; }
+      .column #columm_wrap #column_inner #colum_detail p {
+        font-family: "Noto Sans JP", "Hiragino Sans", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "Noto Sans", sans-serif;
+        margin-bottom: 60px;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.5;
+        text-indent: 2rem; }
+        @media screen and (max-width: 767px) {
+          .column #columm_wrap #column_inner #colum_detail p {
+            font-size: 1.6rem;
+            margin-bottom: 25px;
+            text-indent: 1.6rem;
+            line-height: 2; } }
+        .column #columm_wrap #column_inner #colum_detail p span {
+          background: #fff09b;
+          font-weight: 600; }
+    .column #columm_wrap #column_inner #foot_pager {
+      padding: 15px 0 75px;
+      width: 82%;
+      max-width: 650px;
+      margin: 0 auto; }
+      .column #columm_wrap #column_inner #foot_pager ul {
+        display: flex;
+        justify-content: center;
+        font-family: "Noto Sans JP", "Hiragino Sans", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "Noto Sans", sans-serif;
+        font-weight: 400; }
+        .column #columm_wrap #column_inner #foot_pager ul li {
+          position: relative;
+          margin: 0 25px;
+          line-height: 1; }
+          @media screen and (max-width: 767px) {
+            .column #columm_wrap #column_inner #foot_pager ul li {
+              font-size: 1.2rem;
+              margin: 0 15px; } }
+          .column #columm_wrap #column_inner #foot_pager ul li:nth-child(1)::before {
+            content: url("../img/column/cl_ico_left.svg");
+            width: 16px;
+            position: absolute;
+            left: -30px;
+            top: 50%;
+            transform: translateY(-40%); }
+            @media screen and (max-width: 767px) {
+              .column #columm_wrap #column_inner #foot_pager ul li:nth-child(1)::before {
+                width: 12px;
+                left: -25px;
+                transform: translateY(-45%); } }
+          .column #columm_wrap #column_inner #foot_pager ul li:nth-child(2)::before {
+            content: url("../img/column/cl_ico_right.svg");
+            width: 16px;
+            position: absolute;
+            right: -30px;
+            top: 50%;
+            transform: translateY(-40%); }
+            @media screen and (max-width: 767px) {
+              .column #columm_wrap #column_inner #foot_pager ul li:nth-child(2)::before {
+                width: 12px;
+                right: -25px;
+                transform: translateY(-45%); } }
+.column #backnum {
+  background: #fff; }
+  @media screen and (max-width: 767px) {
+    .column #backnum {
+      background: #ECF0D1; } }
+  .column #backnum .backnum_content {
+    width: 82%;
+    max-width: 850px;
+    padding: 70px 0 80px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse; }
+    @media screen and (max-width: 767px) {
+      .column #backnum .backnum_content {
+        display: block;
+        padding: 50px 0; } }
+    .column #backnum .backnum_content .backnum_list {
+      width: 50%; }
+      @media screen and (max-width: 767px) {
+        .column #backnum .backnum_content .backnum_list {
+          width: 82%;
+          margin: 0 auto; } }
+      .column #backnum .backnum_content .backnum_list h3 {
+        font-size: 1.7rem;
+        color: #1E9200;
+        font-weight: 400;
+        margin-bottom: 35px;
+        line-height: 1; }
+        @media screen and (max-width: 767px) {
+          .column #backnum .backnum_content .backnum_list h3 {
+            font-size: 1.4rem;
+            text-align: center; } }
+      .column #backnum .backnum_content .backnum_list ul li {
+        margin-bottom: 10px;
+        line-height: 1.5;
+        font-size: 2rem;
+        font-weight: 400; }
+        @media screen and (max-width: 767px) {
+          .column #backnum .backnum_content .backnum_list ul li {
+            font-size: 1.6rem; } }
+        .column #backnum .backnum_content .backnum_list ul li:last-child {
+          margin-bottom: 0; }
+        .column #backnum .backnum_content .backnum_list ul li span {
+          color: #1E9200;
+          margin-right: 20px; }
+    .column #backnum .backnum_content figure {
+      width: 50%;
+      text-align: center; }
+      @media screen and (max-width: 767px) {
+        .column #backnum .backnum_content figure {
+          width: 100%; } }
+      .column #backnum .backnum_content figure img {
+        width: 48%;
+        height: auto;
+        padding-top: 30px;
+        margin: 0 auto; }
+        @media screen and (max-width: 767px) {
+          .column #backnum .backnum_content figure img {
+            padding-top: 0;
+            margin-bottom: 45px;
+            max-width: 120px; } }
+
 /*# sourceMappingURL=style.css.map */
