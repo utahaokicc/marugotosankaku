@@ -3500,11 +3500,12 @@ footer{
 								}
 							}
 						}
-						&:nth-child(2){
+						&:last-child{
 							&::before{
 								content: url("../img/column/cl_ico_right.svg");
 								width: 16px;
 								position: absolute;
+								left: auto;
 								right: -30px;
 								top: 50%;
 								transform: translateY(-40%);

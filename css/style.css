@@ -2972,15 +2972,16 @@ footer {
                 width: 12px;
                 left: -25px;
                 transform: translateY(-45%); } }
-          .column #columm_wrap #column_inner #foot_pager ul li:nth-child(2)::before {
+          .column #columm_wrap #column_inner #foot_pager ul li:last-child::before {
             content: url("../img/column/cl_ico_right.svg");
             width: 16px;
             position: absolute;
+            left: auto;
             right: -30px;
             top: 50%;
             transform: translateY(-40%); }
             @media screen and (max-width: 767px) {
-              .column #columm_wrap #column_inner #foot_pager ul li:nth-child(2)::before {
+              .column #columm_wrap #column_inner #foot_pager ul li:last-child::before {
                 width: 12px;
                 right: -25px;
                 transform: translateY(-45%); } }
